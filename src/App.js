@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>
