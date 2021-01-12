@@ -11,6 +11,7 @@
 
 # misc
 Chapter7.md
+Chapter7*
 .DS_Store
 .env.local
 .env.development.local
