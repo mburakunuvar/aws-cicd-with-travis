@@ -12,6 +12,7 @@
 # misc
 Chapter7.md
 Chapter7*
+.eslintcache
 .DS_Store
 .env.local
 .env.development.local
