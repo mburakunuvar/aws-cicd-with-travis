@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Demo:AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS for CAPGEMINI BENELUX
+          Demo:AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS for CAPGEMINI
         </a>
       </header>
     </div>
