@@ -8,15 +8,15 @@ before_install:
 
 script:
   #   - docker run buraku/sample-app npm run test -- --coverage
-  - docker run -e CI=true burakunuvar/sample-app npm run test
-deploy:
-  provider: elasticbeanstalk
-  region: "eu-west-1"
-  app: "aws-cicd-with-travis"
-  env: "AwsCicdWithTravis-env"
-  bucket_name: "elasticbeanstalk-eu-west-1-388521517294"
-  bucket_path: "aws-cicd-with-travis"
-  on:
-    branch: main
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+  - docker run -e CI=true burakunuvar/sample-app npm run test -- --coverage
+# deploy:
+#   provider: elasticbeanstalk
+#   region: "eu-west-1"
+#   app: "aws-cicd-with-travis"
+#   env: "AwsCicdWithTravis-env"
+#   bucket_name: "elasticbeanstalk-eu-west-1-388521517294"
+#   bucket_path: "aws-cicd-with-travis"
+#   on:
+#     branch: main
+#   access_key_id: $AWS_ACCESS_KEY
+#   secret_access_key: $AWS_SECRET_KEY
