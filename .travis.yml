@@ -12,7 +12,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "eu-west-1"
-  app: "cicd-with-travis"
+  app: "ci-cd-with-travis"
   env: "Cicdwithtravis-env"
   bucket_name: "elasticbeanstalk-eu-west-1-388521517294"
   bucket_path: "aws-cicd-with-travis"
