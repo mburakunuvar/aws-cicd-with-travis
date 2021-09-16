@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* CAPGEMINI - Demo:AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS */}
+          Demo:AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>
