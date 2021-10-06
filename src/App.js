@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          PSA OFFSITE 2021: LIVE DEMO AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
+          LIVE DEMO AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>
