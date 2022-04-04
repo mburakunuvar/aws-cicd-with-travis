@@ -8,12 +8,12 @@ before_install:
 
 script:
   #   - docker run buraku/sample-app npm run test -- --coverage
-  - docker run -e CI=true burakunuvar/sample-app npm test
+  - docker run -e CI=true burakunuvar/sample-app npm run test
 deploy:
   provider: elasticbeanstalk
   region: "eu-west-1"
   app: "ci-cd-with-travis"
-  env: "Cicdwithtravis-env"
+  env: "Cicdwithtravis-env-1"
   bucket_name: "elasticbeanstalk-eu-west-1-388521517294"
   bucket_path: "aws-cicd-with-travis"
   on:

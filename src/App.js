@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LIVE DEMO AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
+          TEST AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>

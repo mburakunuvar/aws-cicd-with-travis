@@ -54,11 +54,11 @@ COPY --from=0 /app/build /usr/share/nginx/html
 
 3. Click the "Create Application" button
 
-4. Enter "docker" for the Application Name
+4. Enter "ci-cd-with-travis" for the Application Name
 
 5. Scroll down to "Platform" and select "Docker" from the dropdown list.
 
-6. Change "Platform Branch" to Docker running on 64bit Amazon Linux
+6. Change "Platform Branch" to "Docker running on 64bit Amazon Linux 2"
 
 7. Click "Create Application"
 
@@ -82,21 +82,21 @@ COPY --from=0 /app/build /usr/share/nginx/html
 
 1. Set the region. The region code can be found by clicking the region in the toolbar next to your username.
 
-eg: 'us-east-1'
+eg: 'eu-west-1'
 
 2. app should be set to the Application Name (Step #4 in the Initial Setup above)
 
-eg: 'docker'
+eg: 'ci-cd-with-travis'
 
 3. env should be set to the lower case of your Beanstalk Environment name.
 
-eg: 'docker-env'
+eg: 'Cicdwithtravis-env-1'
 
 4. Set the bucket_name. This can be found by searching for the S3 Storage service. Click the link for the elasticbeanstalk bucket that matches your region code and copy the name.
 
 eg: 'elasticbeanstalk-us-east-1-923445599289'
 
-5. Set the bucket_path to 'docker'
+5. Set the bucket_path to 'aws-cicd-with-travis'
 
 6. Set access_key_id to $AWS_ACCESS_KEY
 
