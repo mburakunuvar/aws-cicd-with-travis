@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
-import diagram from "./aws-ci-cd-with-travis.png";
-import diagram from "./swiss-summit.png";
+import diagram1 from "./aws-ci-cd-with-travis.png";
+import diagram2 from "./swiss-summit.png";
 import "./App.css";
 
 function App() {
