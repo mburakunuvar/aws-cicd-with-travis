@@ -1,14 +1,14 @@
 // import logo from "./logo.svg";
-import diagram1 from "./aws-ci-cd-with-travis.png";
-import diagram2 from "./swiss-summit.png";
+import diagram from "./aws-ci-cd-with-travis.png";
+import diagram from "./swiss-summit.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={diagram2} alt="diagram" />
-        <img src={diagram1} className=".photo" alt="diagram" />
+        <img src={diagram2} className="photo" alt="diagram" />
+        <img src={diagram1} alt="diagram" />
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          TEST2 AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
+          WELCOME AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>
