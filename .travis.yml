@@ -11,10 +11,10 @@ script:
   - docker run -e CI=true burakunuvar/sample-app npm run test
 deploy:
   provider: elasticbeanstalk
-  region: "eu-central-1"
+  region: "us-east-1"
   app: "ci-cd-with-travis"
   env: "Cicdwithtravis-env"
-  bucket_name: "elasticbeanstalk-eu-central-1-388521517294"
+  bucket_name: "elasticbeanstalk-us-east-1-388521517294"
   bucket_path: "aws-cicd-with-travis"
   on:
     branch: main

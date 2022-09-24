@@ -7,8 +7,36 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={diagram2} className="photo" alt="diagram" />
-        <img src={diagram1} alt="diagram" />
+        <h1>WELCOME TO AWS Swiss Cloud Day </h1>
+        <img src={diagram2} className="photo2-summit" alt="summit" />
+        <h2>
+          CI - Continuous integration:{" "}
+          <h3>
+            {" "}
+            software development practice where developers regularly merge their
+            code changes into a central repository, after which automated builds
+            and tests are run.
+          </h3>
+        </h2>
+
+        <h2>
+          CI - Continuous Delivery:{" "}
+          <h3>
+            {" "}
+            software development practice where code changes are automatically
+            built, tested, and prepared for production release
+          </h3>
+        </h2>
+
+        <h2>
+          CI - Continuous Deployment:{" "}
+          <h3>
+            minimizes explicit approvals making the entire software release
+            process automated.{" "}
+          </h3>
+        </h2>
+
+        <img src={diagram1} className="photo1-travis" alt="travis" />
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
@@ -18,7 +46,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          WELCOME AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
+          AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
       </header>
     </div>

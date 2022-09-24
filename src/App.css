@@ -37,7 +37,12 @@
   }
 }
 
-.photo {
+.photo1-travis {
+  /* height: 200px; */
+  width: 200px;
+}
+
+.photo2-summit {
   /* height: 200px; */
   width: 200px;
 }
