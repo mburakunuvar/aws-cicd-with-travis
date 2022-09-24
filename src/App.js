@@ -28,10 +28,6 @@ function App() {
           process automated.{" "}
         </h3> */}
 
-        <img src={diagram1} className="photo1-travis" alt="travis" />
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
         <a
           className="App-link"
           href="https://docs.travis-ci.com/user/deployment/elasticbeanstalk/"
@@ -40,6 +36,10 @@ function App() {
         >
           AWS Elastic Beanstalk CI/CD PIPELINE WITH TRAVIS
         </a>
+        <img src={diagram1} className="photo1-travis" alt="travis" />
+        {/* <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p> */}
       </header>
     </div>
   );
