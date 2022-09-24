@@ -9,24 +9,24 @@ function App() {
       <header className="App-header">
         <h1>WELCOME TO AWS Swiss Cloud Day </h1>
         <img src={diagram2} className="photo2-summit" alt="summit" />
-        <h2>CI - Continuous integration: </h2>
+        {/* <h2 className="App-explain">CI - Continuous integration: </h2>
         <h3>
           software development practice where developers regularly merge their
           code changes into a central repository, after which automated builds
           and tests are run.
         </h3>
-        <h2>CI - Continuous Delivery: </h2>
+        <h2 className="App-explain">CI - Continuous Delivery: </h2>
         <h3>
           {" "}
           software development practice where code changes are automatically
           built, tested, and prepared for production release
         </h3>
 
-        <h2>CI - Continuous Deployment: </h2>
+        <h2 className="App-explain">CI - Continuous Deployment: </h2>
         <h3>
           minimizes explicit approvals making the entire software release
           process automated.{" "}
-        </h3>
+        </h3> */}
 
         <img src={diagram1} className="photo1-travis" alt="travis" />
         {/* <p>
