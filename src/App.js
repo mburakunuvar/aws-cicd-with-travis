@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>TechChat- Building CI/CD Pipeline for Containers on AWS-Demo1 </h1>
-        <img src={diagram2} className="photo2-summit" alt="summit" />
+        <h1>TechChat Demo1:</h1>
+        <h2>A simple CI/CD Pipeline with partner tools</h2>
+        {/* <img src={diagram2} className="photo2-summit" alt="summit" /> */}
         {/* <h2 className="App-explain">CI - Continuous integration: </h2>
         <h3>
           software development practice where developers regularly merge their
