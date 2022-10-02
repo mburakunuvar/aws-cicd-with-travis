@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>WELCOME TO AWS Swiss Cloud Day </h1>
+        <h1>TechChat- Building CI/CD Pipeline for Containers on AWS-Demo1 </h1>
         <img src={diagram2} className="photo2-summit" alt="summit" />
         {/* <h2 className="App-explain">CI - Continuous integration: </h2>
         <h3>
